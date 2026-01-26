@@ -6,4 +6,5 @@ resources:
 #    - cloudflare.yaml
     - tunnel-credentials.yaml
     - linkding-superuser.yaml
+    - ingress.yaml
 #   - test-secret.yaml
