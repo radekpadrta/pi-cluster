@@ -31,3 +31,12 @@ spec:
   values:
     grafana:
       adminPassword: radek
+      ingress:
+        enabled: true
+        ingressClassName: traefik
+        hosts:
+          - grafana.radekpadrta.org
+        tls:
+          - secretName: grafana-tls
+            hosts:
+              - grafana.radekpadrta.org
